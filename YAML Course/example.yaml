@@ -1,0 +1,15 @@
+"Arun" : "A Java Programmer"
+1 : "This is level of arun among college"
+---
+# lists
+- java
+- python
+- Ruby
+- kotlin
+- swift
+---
+cities:
+ - Toronto
+ - ontario
+ - Yark
+ ...
