@@ -1,0 +1,52 @@
+student: !!seq
+- marks
+- name
+- roll_no
+---
+student : [name, roll_no,mark]
+---
+sparse seq:
+- hey
+- how
+- 
+- null
+---
+
+# nested item
+- - hey
+  - how
+- 
+  - null
+---
+# nested mapping map within an map
+name: ArunPrasanth
+age: 19
+role:
+  job: javaDeveloper
+  country: canada
+
+#same as
+name: ArunPrasanth
+age: 19
+role: { job: javaDeveloper, country: canada } 
+---
+# pairs:Key may have duplicate values
+pair example: !!pairs
+- job: student
+- job: java programmer
+#this will be in  from of hashTable 
+
+# !!set will allow you to have uniqe value
+? Arun
+? vimal
+? kishore
+
+# dictionary !!omap
+people: !!omap
+  - Kunal:
+     name: Kunal Kushwaha
+     age: 21
+  - Arun:
+     name: ArunPrasanth
+     age: 19
+...
