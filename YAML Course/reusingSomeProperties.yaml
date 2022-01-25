@@ -1,0 +1,10 @@
+# reusing some properties usinf anchores
+linking: &like
+  fev fruit: mango
+  dislikes: grapes
+
+
+person:
+  name: ArunPrasanth
+  <<: *like
+  dislikes: green veg
