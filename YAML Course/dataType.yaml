@@ -1,0 +1,41 @@
+# String varible
+myself : ArunPrasanth
+country : 'canada'
+city : "Ontario"
+---
+cities : [Canada,India]
+---
+{arun: "Java",exp: 2}
+---
+bio : |
+hey my aim to get into canada
+because i love it.
+---
+message : >
+this will
+be one single line
+---
+# same as
+message : this will be one single line
+--- 
+  number: 5476
+  mark: 99.4
+  booleanValuse : NO #n ,N ,false ,False, FALSE
+---
+#specify the type
+zero: !!int 0
+-number: !!int -45
+binaryNum: !!int 01101
+commaValue: !!int +540_00
+exponential number: 6.40E32
+---
+# floating point number
+mark: !!float 56.80
+infinite: !!float .inf
+---
+# null
+surName: !!null null
+---
+# dates and time
+date: !!timestamp 2002-05-25
+india time: 2002-05-25T02:59:43.10 +5:30
